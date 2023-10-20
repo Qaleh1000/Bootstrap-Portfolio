@@ -1,0 +1,165 @@
+
+/* Text */
+h1, h2, h3 , h4, h5, h6 {
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+p {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+
+/* Navigation bar */
+
+nav a {
+  color: grey !important;
+  transition: all 0.35s;
+}
+
+nav a:hover,
+nav a:focus {
+  color: #64a19d !important;
+}
+
+#customNav {
+  transition: all 0.35s !important ;
+  font-family: 'Catamaran', 'Helvetica', 'Arial', 'sans-serif';
+  font-weight: 200 !important;
+  letter-spacing: 1px !important;
+}
+
+
+/* Jumbotron  */
+.portfolioBackground{
+    background-image: url(../images/Qaali\ Small.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: calc(100vh - 25px);
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-end;
+  }
+
+  .portfolioDuplicate {
+    color: #64a19d;
+  }
+
+/* Cards */
+
+.content .card {
+  padding: 50px;
+  border: none;
+}
+.sectionHeading {
+  text-align: center;
+}
+.myWork {
+  padding: 0px 30px 30px 30px;
+}
+.cardContainer {
+  text-align: center;
+}
+
+.btn-primary {
+  background-color: white;
+  color: black;
+}
+ .btn-primary:hover {
+  cursor: pointer;
+  background-color: #64a19d;
+  box-shadow: 0px 5px 5px 0px rgba(159, 156, 156, 0.3);;
+ }
+
+ /* Individual Cards*/
+
+ .cardone {
+  border: 0.20rem solid #64a19d;
+  border-radius: 10px;
+ }
+
+ .cardtwo {
+  border: 0.20rem solid #64a19d;
+  border-radius: 10px;
+ }
+
+ .cardthree {
+  border: 0.20rem solid #64a19d;
+  border-radius: 10px;
+ }
+
+ .cardfour {
+  border: 0.20rem solid #64a19d;
+  border-radius: 10px;
+ }
+
+
+ /* Skills Section */
+
+.skillSection {
+  padding: 50px;
+  border: solid  #64a19d;
+  border-radius: 10px;
+  margin-bottom: 50px;
+}
+
+
+/* About me Section */
+.aboutMe {
+  padding: 50px;
+  border: solid  #64a19d;
+  border-radius: 10px;
+  margin-bottom: 50px;
+}
+
+/*      Contact Section    */
+.contact-section {
+  padding-top: 25px;
+  padding-bottom: 80px;
+}
+.contact-section .card {
+
+  border: 0.25rem solid #64a19d;
+  border-radius: 10px;
+}
+.contact-section .card h4 {
+  font-size: 0.8rem;
+  font-family: 'Varela Round', -apple-system, BlinkMacSystemFont, 'Segoe UI',
+    Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji',
+    'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+  text-transform: uppercase;
+  letter-spacing: 0.15rem;
+}
+
+.contact-section  a {
+  text-align: center;
+  height: 3rem;
+  width: 3rem;
+  background: white;
+  border-radius: 100%;
+  line-height: 3rem;
+  color: rgb(178, 179, 181);
+}
+.contact-section  a:hover {
+  color: #64a19d;
+}
+.contact-section a:active {
+  color: rgb(178, 179, 181);
+}
+
+
+  /* Footer */
+  footer {
+    padding: 25px 0;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.3);
+    background-color: #222222;
+}
+  
+footer p {
+    font-size: 12px;
+    margin: 0;
+}
+
+.container  .mx-2:hover {
+    background-color: rgba(106, 101, 101, 0.5);
+  }
